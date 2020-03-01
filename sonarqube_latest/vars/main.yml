@@ -6,5 +6,5 @@ sonar_install_directory: /opt/
 sonarqube: "{{ sonar_install_directory }}/sonarqube-{{ sonar_version }}"
 sonar_daemon_dir: "{{ sonar_install_directory }}sonarqube-{{ sonar_version }}/bin/linux-x86-64/"
 ####chnage this part###############
-sonar_user: ansadm      #Your_Username
-sonar_group: ansadm     #Your_Group_name
+sonar_user: ansadmin     #Your_Username
+sonar_group: ansadmin    #Your_Group_name
