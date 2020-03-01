@@ -1,5 +1,6 @@
 ---
 root_user: root
 root_pass: 123
+mysql_bind_address: "0.0.0.0"
 db_user: inguser3
 db_pass: H@ckath0n
