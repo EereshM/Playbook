@@ -5,7 +5,7 @@
   - jdk
   - maven
   - myjenkins
-  - swap
+  ##- swap
   - sonarqube_latest
   - nexus
   - tomcat
