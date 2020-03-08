@@ -1,3 +1,4 @@
+
 ---
 - hosts: all
   become: yes
@@ -10,3 +11,11 @@
   - nexus
   - tomcat
   - sqlinstall
+  - { role: jdk,tags: java }
+  - { role: maven,tags: maven }
+  - { role: myjenkins,tags: jenkins }
+  - { role: swap,tags: swapmem }
+  - { role: sonarqube_latest,tags: sonar }
+  - { role: nexus,tags: nexus }
+  - { role: tomcat,tags: tomcat }
+  - { role: sqlinstall,tags: mysql }
